@@ -4,7 +4,7 @@ const ProductCard = ({product}) => {
   return (
     <div>
 <h2>{product.title}</h2>
-<img src={product.image} alt="" />
+<img width ={150}src={product.image} alt="" />
     </div>
   )
 }
