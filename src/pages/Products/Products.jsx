@@ -1,6 +1,6 @@
 import React, { useEffect,useState } from "react";
 import ProductCard from "../../components/ProductCard/ProductCard";
-
+import "..//..//pages/..//app/Styles/../Styles/product.css";
 const Products = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
@@ -9,7 +9,7 @@ const Products = () => {
       .then((res) => setProducts(res));
   }, []);
   return (
-    <div>
+    <div className="products-container">
       {products.map((product) => 
         <ProductCard key={product.id} product={product}/>
       )}

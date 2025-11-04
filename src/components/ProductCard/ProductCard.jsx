@@ -1,12 +1,14 @@
-import React from 'react'
-
-const ProductCard = ({product}) => {
+import React from "react";
+import "..//..//pages/..//app/Styles/../Styles/Productcard.css";
+const ProductCard = ({ product }) => {
   return (
-    <div>
-<h2>{product.title}</h2>
-<img width ={150}src={product.image} alt="" />
+    <div className="block" >
+      <div className="card">
+        <h2 className="nameblok">{product.title}</h2>
+        <img width={200} src={product.image} alt="" className="imgcard" />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProductCard
+export default ProductCard;
