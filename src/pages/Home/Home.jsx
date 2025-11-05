@@ -1,9 +1,42 @@
-import React from 'react'
-
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "..//..//app/Styles/Home.css"
+import slide1 from "..//../assets/Image/slide1.jpg";
+import slide2 from "..//../assets/Image/slide2.jpg";
+import slide3 from "..//../assets/Image/slide3.jpg";
+import slide4 from "..//../assets/Image/slide4.jpg";
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: "linear",
+    autoplay: true,
+    autoplaySpeed: 3000
+  };
 
-export default Home
+  return (
+    <div className="slider-container">
+<Slider {...settings}>
+  <div>
+    <img src={slide1} alt="Slide 1" />
+  </div>
+  <div>
+    <img src={slide2} alt="Slide 2" />
+  </div>
+  <div>
+    <img src={slide3} alt="Slide 3" />
+  </div>
+  <div>
+    <img src={slide4} alt="Slide 4" />
+  </div>
+</Slider>
+</div>
+
+  );
+};
+
+export default Home;
