@@ -10,7 +10,7 @@ import slide4 from "..//../assets/Image/slide4.jpg";
 import slide5 from "..//../assets/Image/slide5.jpg";
 import slide6 from "..//../assets/Image/slide6.jpg";
 import slide7 from "..//../assets/Image/slide7.jpg";
-const Home = () => {
+export const Home = () => {
   const settings = {
     dots: true,
     infinite: true,

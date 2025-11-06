@@ -1,14 +1,17 @@
-import React from "react";
-import Header from "../Header/Header";
-import { Outlet } from "react-router-dom";
+import React from 'react'
+import Header from '../Header/Header'
+import { Outlet } from 'react-router-dom'
+import { Container } from '@mui/material'
 
-const Layout = () => {
+export const Layout = ({cartLength}) => {
   return (
-    <div>
-      <Header />
-      <Outlet />
-    </div>
-  );
-};
+    <>
+        <Header cartLength={cartLength}/>
+        <Container maxWidth='xl'>
+          <Outlet />
+        </Container>
+        
+    </>
+  )
+}
 
-export default Layout;

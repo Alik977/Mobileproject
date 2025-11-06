@@ -1,30 +1,43 @@
-import React from "react";
-import Button from "@mui/material/Button";
-import LocalMallIcon from "@mui/icons-material/LocalMall";
-import "../../app/Styles/Productcard.css"; 
+import React from 'react'
+import { Button, Card,CardContent,CardMedia,Typography,CardActionArea, Box } from '@mui/material';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { NavLink } from 'react-router-dom';
 
-const ProductCard = ({ product }) => {
+export default function ProductCard({product, addToCart}) {
+
+ 
   return (
-    <div className="card">
-      <img
-        src={product.image}
-        alt={product.title}
-        className="imgcard"
-      />
-      <h2 className="nameblok">{product.title}</h2>
-      <div className="price-and-btn">
-        <span className="price">{product.price ? `$${product.price}` : ""}</span>
-        <Button
-          variant="contained"
-          color="primary"
-          endIcon={<LocalMallIcon />}
-          sx={{ mt: 1, width: "100%" }}
-        >
-          Buy
-        </Button>
-      </div>
-    </div>
+    <Card sx={{ width: '300px' }}>
+      <Box
+      component={NavLink}
+      to={`/products/${product.id}`}
+      >
+      <CardActionArea >
+        <CardMedia
+          component="img"
+          height='400'
+          width='800'
+          image={product.image}
+          alt="green iguana"
+          className='card'
+        />
+        <CardContent className='products-container'>
+          <Typography gutterBottom variant="body1"  component="div"  > 
+            {
+              product.title.length <= 20 ? product.title : `${product.title.slice(0, 20)} ... `
+            }
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      </Box>
+      <Button
+      onClick={() => addToCart(product)}
+      sx={{width : '100%'}}
+      startIcon={<ShoppingCartIcon /> }
+      variant='contained'
+      >
+        Buy
+      </Button>
+    </Card>
   );
-};
-
-export default ProductCard;
+}

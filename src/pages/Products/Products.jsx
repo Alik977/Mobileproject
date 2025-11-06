@@ -3,7 +3,7 @@ import ProductCard from "../../components/ProductCard/ProductCard";
 import './/..//../app/Styles/ProductCard.css'
 
 
-const Products = () => {
+export const Products = () => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
