@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { CartItem } from '../../components/CartItem/Cartitem'
+import { CartItem } from '../../components/CartItem/Cartitem.jsx';
+
 
 export const Cart = ({ cart, updateCart }) => {
   

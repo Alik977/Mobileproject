@@ -5,16 +5,24 @@ export const CartItem = ({cart, updateCart}) => {
 
 
     const plus = () => {
-        setCount(++count)
-        updateCart(count, cart.id)
-    }
-   
-    const minus = () => {
-        if(count > 1){
-            setCount(--count)
-            updateCart(count, cart.id)
+    setCount(prev => {
+        const newCount = prev + 1;
+        updateCart(newCount, cart.id);
+        return newCount;
+    });
+}
+
+const minus = () => {
+    setCount(prev => {
+        if(prev > 1){
+            const newCount = prev - 1;
+            updateCart(newCount, cart.id);
+            return newCount;
         }
-    }
+        return prev;
+    });
+}
+
     return (
         <li
             style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
