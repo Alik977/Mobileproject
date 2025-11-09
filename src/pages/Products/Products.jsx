@@ -3,9 +3,10 @@ import ProductCard from "../../components/ProductCard/ProductCard";
 import './/..//../app/Styles/ProductCard.css'
 
 
-export const Products = () => {
-  const [products, setProducts] = useState([]);
+export const Products = ({ addToCard, products: initialProducts }) => {
+  const [products, setProducts] = useState(initialProducts || []);
   const [loading, setLoading] = useState(true);
+
   const [error, setError] = useState(null);
 
   useEffect(() => {
@@ -31,7 +32,8 @@ export const Products = () => {
   return (
     <div className="products-container">
       {products.map((p) => (
-        <ProductCard key={p.id} product={p} />
+        <ProductCard key={p.id} product={p} addToCard={addToCard}/>
+        
       ))}
     </div>
   );
