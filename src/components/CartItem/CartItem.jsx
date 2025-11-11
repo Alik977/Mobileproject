@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 
-export const CartItem = ({cart, updateCart}) => {
+import ".//..//CartItem/CartItem.css"
+export const CartItem = ({cart, updateCart,removeFromCart}) => {
     let [count, setCount] = useState(cart.count);
 
 
@@ -22,22 +23,37 @@ const minus = () => {
         return prev;
     });
 }
+const clear = () => {
+  removeFromCart(cart.id);
 
+};
     return (
+        
+       
+        <div className='cartbox'> 
+        <div className='regbutton'> </div>
         <li
+        
             style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
         >
-            <div>
-                <img width={80} src={cart.image} />
+            
+            <div className='minibox'>
+                <img width={400} src={cart.image} className='cartitem'/>
             </div>
             <div>
-                <button onClick={plus} style={{ width: '50px' }}>+</button>
-                <span>{count}</span>
-                <button onClick={minus} style={{ width: '50px' }} >-</button>
+                <button onClick={plus} style={{ width: '100px' }} className='plus'>➕</button>
+                <span className='count'>{count}</span>
+                <button onClick={minus} style={{ width: '100px' }} className='minus'>➖</button>
             </div>
             <div>
-                <h5>{cart.initPrice.toFixed(2)}$</h5>
+                <h5 className='price1'>{cart.initPrice.toFixed(2)}$</h5>
+                
             </div>
+            <button onClick={clear} style={{ width: '100px' }} className='clear'>🚫</button>
         </li>
+        <div className='reg'>
+
+        </div>
+        </div>
     )
 }

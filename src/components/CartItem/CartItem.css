@@ -1,0 +1,70 @@
+.cartitem {
+  width: 450px;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.minibox {
+  padding: 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.price1 {
+  color: rgb(35, 101, 245);
+  font-size: 30px;
+  font-weight: bold;
+}
+.plus {
+  border-radius: 90px;
+  padding: 20px 20px 20px;
+  box-shadow: rgba(69, 58, 224, 0.17) 0px -23px 25px 0px inset,
+    rgba(8, 44, 248, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+    rgba(27, 4, 236, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(224, 72, 72, 0.09) 0px 32px 16px;
+    border: 1px solid blue;
+}
+.minus {
+  border-radius: 90px;
+  padding: 20px 20px 20px;
+  box-shadow: rgba(19, 3, 253, 0.17) 0px -23px 25px 0px inset,
+    rgba(8, 44, 248, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+    rgba(27, 4, 236, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(224, 72, 72, 0.09) 0px 32px 16px;
+  border: 1px solid blue;
+}
+.count{
+    color: rgb(35, 101, 245);
+  font-size: 30px;
+  font-weight: bold;
+  padding: 40px;
+}
+.clear{
+    border-radius: 90px;
+  padding: 20px 20px 20px;
+  font-size: 25px;
+  box-shadow: rgba(19, 3, 253, 0.17) 0px -23px 25px 0px inset,
+    rgba(8, 44, 248, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+    rgba(27, 4, 236, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(224, 72, 72, 0.09) 0px 32px 16px;
+  border: 1px solid blue;
+  
+}
+.clear:hover{
+    cursor: pointer;
+}
+.plus:hover{
+    cursor: pointer;
+}
+.minus:hover{
+    cursor: pointer;
+}

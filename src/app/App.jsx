@@ -64,7 +64,9 @@ function App() {
       })
     );
   };
-
+const removeFromCart = (id) => {
+  setCart(prev => prev.filter(item => item.id !== id));
+};
   useEffect(() => {
     instance
       .get("/products")
@@ -91,7 +93,7 @@ function App() {
         <Route path="/products/:id" element={<Product />} />
         <Route
           path="/carts"
-          element={<Cart cart={cart} updateCart={updateCart} />}
+          element={<Cart cart={cart} updateCart={updateCart} removeFromCart={removeFromCart} />}
         />
         <Route path="*" element={<Error />} />
       </Route>

@@ -19,8 +19,8 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCartOutlined";
 
 
 const pages = [
-  { title: "Home", path: "/" },
-  { title: "Products", path: "/products" },
+  { title: "Գլխավոր էջ", path: "/" },
+  { title: "Ապրանքատեսակ", path: "/products" },
 ];
 
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -133,7 +133,7 @@ function Header({ cartLength }) {
               textDecoration: "none",
             }}
           >
-            My Mobile
+       
           </Typography>
 
      

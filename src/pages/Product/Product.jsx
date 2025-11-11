@@ -10,6 +10,7 @@ export const Product = () => {
   const { id } = useParams();
 
   useEffect(() => {
+  
     instance.get(`/products/${id}`)
       .then((res) => {
         if (!res.data) {
@@ -20,6 +21,11 @@ export const Product = () => {
       })
       .catch(() => setError(true));
   }, [id]);
+  useEffect(() => {
+    if (product) {
+      localStorage.setItem("title", product.id);
+    }
+  }, [product]);
 
   if (error) return <Error />; 
 

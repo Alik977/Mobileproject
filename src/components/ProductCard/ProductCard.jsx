@@ -29,7 +29,7 @@ export default function ProductCard({ product, addToCart }) {
         startIcon={<ShoppingCartIcon />}
         variant="contained"
       >
-        Buy
+        Գնել
       </Button>
     </Card>
   );
