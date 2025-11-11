@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { CartItem } from '../../components/CartItem/Cartitem.jsx';
+import { CartItem } from '../../components/CartItem/CartItem.jsx';
 
 
 export const Cart = ({ cart, updateCart }) => {

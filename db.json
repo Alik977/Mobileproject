@@ -1,0 +1,164 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "https://imgs.search.brave.com/fqd-BmvSetbOnRkZAoY3EshVr8QcmBLTWvVf0-_n5yc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zbWFy/dHBob25lYmlvLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAx/Ny8xMS9TYW1zdW5n/LUdhbGF4eS1YMS5q/cGc",
+      "title": "Galaxy X1",
+      "description": "Արևկող, 6.5\" էկրան, 128GB պահեստ, 48MP камера.",
+      "category": "phones",
+      "price": 399
+    },
+    {
+      "id": 2,
+      "image": "https://imgs.search.brave.com/KD1olMDmOweY3gLoUCVYKn5uz_clrz2vcRvz-5hRyEU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9oaXRl/Y2hjZW50dXJ5LmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/Mi8xMi8yMDIyMTIw/NF8xNzA1MTMtMDFf/Y29tcHJlc3MzLTEw/MjR4NzY4LmpwZw",
+      "title": "Nova S10",
+      "description": "Թեթեւ չափս, 5000mAh մարտկոց.",
+      "category": "phones",
+      "price": 299
+    },
+    {
+      "id": 3,
+      "image": "https://imgs.search.brave.com/SvRGoAU1qxUPRcsq97vW5fKdZCubG6LHtDewMP2_RRA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS53aXJlZC5jb20v/cGhvdG9zLzY4ZTVh/MGM2MzllN2VmMzk3/OWRjZjk5NC80OjMv/d182NDAsY19saW1p/dC9Hb29nbGUlMjBQ/aXhlbCUyMDEwJTIw/UHJvJTIwRm9sZCUy/MEp1bGlhbiUyMENo/b2trYXR0dS5wbmc",
+      "title": "PixelPro 5",
+      "description": "AI ֆոտո ֆունկցիաներ, 90Hz էկրան.",
+      "category": "phones",
+      "price": 449
+    },
+    {
+      "id": 4,
+      "image": "https://imgs.search.brave.com/TxuepuYdkhqhXI5JEBfh_HY-eTW0VovCCZ_Gbbtc4gs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFkUllNLUVVdkwu/anBn",
+      "title": "EcoPhone Mini",
+      "description": "Կոմպակտ, մատչելի, 64GB.",
+      "category": "phones",
+      "price": 199
+    },
+    {
+      "id": 5,
+      "image": "https://imgs.search.brave.com/enHOC79HGwOdRTWvI_lgfeqG3pHW6RaZS85x98Jyl_s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLmRl/bGwuY29tL2lzL2lt/YWdlL0RlbGxDb250/ZW50L2NvbnRlbnQv/ZGFtL3NzMi9wcm9k/dWN0LWltYWdlcy9k/ZWxsLWNsaWVudC1w/cm9kdWN0cy9ub3Rl/Ym9va3MvaW5zcGly/b24tbm90ZWJvb2tz/LzE0LTItaW4tMS03/NDQwLWludGVsL21l/ZGlhLWdhbGxlcnkv/bm90ZWJvb2staW5z/cGlyb24tMTQtNzQ0/MC10LWljZS1ibHVl/LWdhbGxlcnktNC5w/c2Q_Zm10PXBuZy1h/bHBoYSZwc2Nhbj1h/dXRvJnNjbD0xJmhl/aT00MDImd2lkPTYz/MCZxbHQ9MTAwLDEm/cmVzTW9kZT1zaGFy/cDImc2l6ZT02MzAs/NDAyJmNocnNzPWZ1/bGw",
+      "title": "WorkMate 14",
+      "description": "14\" նոթբուք՝ i5, 8GB RAM.",
+      "category": "laptops",
+      "price": 749
+    },
+    {
+      "id": 6,
+      "image": "https://imgs.search.brave.com/9HxTn62FyxKxbRG_iB0cGiEgZjYuA7BPevyiJXMcAYQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZG92ZWNvbXB1dGVy/cy5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjEvMDEvSFAt/WkJvb2stUG93ZXIt/RzctMDA0LTEwMjR4/NTc3LmpwZw",
+      "title": "PowerBook G7",
+      "description": "Հզոր գրաֆիկա, 16GB RAM.",
+      "category": "laptops",
+      "price": 1199
+    },
+    {
+      "id": 7,
+      "image": "https://imgs.search.brave.com/0mfb5PqB-YJW7opNxKcepQHGm-jxVxLpkqqjDIrezFA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/MjU1NDc3MTk1NzEt/YTJkNGFjODk0NWUy/P2l4bGliPXJiLTQu/MS4wJml4aWQ9TTN3/eE1qQTNmREI4TUh4/elpXRnlZMmg4Tkh4/OGJHRndkRzl3ZkdW/dWZEQjhmREI4Zkh3/dyZmbT1qcGcmcT02/MCZ3PTMwMDA",
+      "title": "UltraBook Air",
+      "description": "Թեթև, 1.2kg, երկար մարտկոց.",
+      "category": "laptops",
+      "price": 899
+    },
+    {
+      "id": 8,
+      "image": "https://imgs.search.brave.com/3-V6hCf8iCA0OCt1oG-ZEwFMK7YQtcphhtWzBch9x6Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLmV0/c3lzdGF0aWMuY29t/LzUzMjIyMDE1L3Iv/aWwvM2ViN2UxLzcw/MTAxODAyMDUvaWxf/MzAweDMwMC43MDEw/MTgwMjA1XzQ3NHUu/anBn",
+      "title": "StudentBook 15",
+      "description": "Ուսման համար օպտիմալ.",
+      "category": "laptops",
+      "price": 550
+    },
+    {
+      "id": 9,
+      "image": "https://imgs.search.brave.com/lZgfAvu1EdIWsKjKclA3B-vanokmVjncXDDjZBEr9wE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/ODFkZncySWttT0wu/anBn",
+      "title": "FitBand 3",
+      "description": "Սրտի ռիթմ, քայլեր, առողջություն.",
+      "category": "gadgets",
+      "price": 49
+    },
+    {
+      "id": 10,
+      "image": "https://imgs.search.brave.com/FxBdV8Ryez-Va8BqWfnA2LDSznF5FrGmkcu3ZJMjNi0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9zZW8vaUhp/cC1Tb3VuZFBvZHMt/VHJ1ZS1XaXJlbGVz/cy1CbHVldG9vdGgt/RWFyYnVkcy1Ub3Vj/aC1Db250cm9sLUJ1/aWx0LWluLU1pY3Jv/cGhvbmVfZTBlNDA3/MDMtYjQyNS00NWRk/LThkMzEtN2FiNDk5/NDI4NGU3LjIxODg3/MjQ2ZGE2MTBiNzFj/ZmNlNTY3YWMzZTIw/MjFiLmpwZWc_b2Ru/SGVpZ2h0PTU3MyZv/ZG5XaWR0aD01NzMm/b2RuQmc9RkZGRkZG",
+      "title": "SoundPods Q",
+      "description": "Անլար ականջակալներ՝ 30 ժամ լսում.",
+      "category": "gadgets",
+      "price": 79
+    },
+    {
+      "id": 11,
+      "image": "https://imgs.search.brave.com/helHb9yte-nFINdA_9GSdF58VwjpWN94LL7nP3vJ6SM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wbGF0/Zm9ybS50aGV2ZXJn/ZS5jb20vd3AtY29u/dGVudC91cGxvYWRz/L3NpdGVzLzIvY2hv/cnVzL3VwbG9hZHMv/Y2hvcnVzX2Fzc2V0/L2ZpbGUvMjUzMTM4/NjEvOEEwQTc3MTMu/anBlZz9xdWFsaXR5/PTkwJnN0cmlwPWFs/bCZjcm9wPTAsMCwx/MDAsMTAwJnc9MjQw/MA",
+      "title": "SmartHome Hub",
+      "description": "Խելացի տան կենտրոն.",
+      "category": "gadgets",
+      "price": 99
+    },
+    {
+      "id": 12,
+      "image": "https://imgs.search.brave.com/iV81pnkiNvmFv6GBtUEzQIDDehZuAQY8lhLVOREOk98/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/NGRyYy5jb20vY2Ru/L3Nob3AvcHJvZHVj/dHMvM183YjAyZWRh/YS0yZjQ5LTRmYzMt/YWZjNy0wNzk0NzE5/MGQ3ZmIuanBnP3Y9/MTY2NDc4NzA0MyZ3/aWR0aD04NTA",
+      "title": "PocketDrone V2",
+      "description": "Փոքր դրոն՝ 4K տեսանկարահանում.",
+      "category": "gadgets",
+      "price": 159
+    },
+    {
+      "id": 13,
+      "image": "https://imgs.search.brave.com/ispBzMqZHZij1sS_N35FC1hFEfRqyEPUo9_ujAVRY0o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTcw/NzIwMDkzMy9mci9w/aG90by9tJUMzJUE5/Z2FwaG9uZS0lQzMl/QTlsZWN0cmlxdWUt/bm9pci1zdXItZm9u/ZC1zb21icmUtcGhv/dG8uanBnP2I9MSZz/PTYxMng2MTImdz0w/Jms9MjAmYz1HVTM4/WU92ZDNXYTR6OWNM/MjVXTHdLWjJweXNo/ZWhOV1U4MWdsS2Fp/Q3Y0PQ",
+      "title": "MegaPhone Z",
+      "description": "256GB, պրեմիում տեսախցիկ.",
+      "category": "phones",
+      "price": 549
+    },
+    {
+      "id": 14,
+      "image": "https://imgs.search.brave.com/dcWDK9KrFwjgg3Y5THpjAqWRmu0VC76x1ZWFRcw6mT4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dC5tc2kuY29tL3Jl/c2l6ZS9pbWFnZS9n/bG9iYWwvcHJvZHVj/dC9wcm9kdWN0XzE3/MTE1MjU5NzgzNjgy/NzRkODNiYjRhZjBh/YmJjNDlkMTM4Y2I5/ZTM2Ny5wbmc2MjQw/NWIzOGM1OGZlMGYw/N2ZjZWYyMzY3ZDhh/OWJhMS82MDAucG5n",
+      "title": "Creator Pro 16",
+      "description": "16\" 4K էկրան՝ ստեղծողների համար.",
+      "category": "laptops",
+      "price": 1499
+    },
+    {
+      "id": 15,
+      "image": "https://imgs.search.brave.com/RUJoT0DoUJ7Jg4MpllQKCoU3gFuoIPk6s-ikYdgbtL4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9zZW8vTWlu/aS0yMDAwMG1BaC1Q/b3J0YWJsZS1DaGFy/Z2VyLVBvd2VyLUJh/bmstRmFzdC1DaGFy/Z2luZy1Qb3J0YWJs/ZS1FeHRlcm5hbC1C/YXR0ZXJ5LUJhY2t1/cC1DaGFyZ2VyLXdp/dGgtMy1jYWJsZXMt/TEVELURpc3BsYXlf/MTY1MGQ1N2QtOTY3/OS00NTIzLWFlY2Et/Yjg2YjI5OTRhYmMy/LmZjMjg4NzI5YTQy/YmUwYjNkNWNjNzU4/OGEyOGI5ODg3Lmpw/ZWc_b2RuSGVpZ2h0/PTU3MyZvZG5XaWR0/aD01NzMmb2RuQmc9/RkZGRkZG",
+      "title": "Portable Charger 20000",
+      "description": "20000mAh powerbank.",
+      "category": "gadgets",
+      "price": 39
+    },
+    {
+      "id": 16,
+      "image": "https://imgs.search.brave.com/hr4kQy1bFUxH7AfT0w5vDZz5hsvEFRQ8SArnqpj8Mxo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bW9zLmNtcy5mdXR1/cmVjZG4ubmV0L3FD/YnRUZnZrOVdWcGFR/M0tSVHhzV0IuanBn",
+      "title": "Iphone 17 ",
+      "description": "New.",
+      "category": "phones",
+      "price": 980
+    },
+    {
+      "id": 17,
+      "image": "https://imgs.search.brave.com/2myp4lkBuWLQpzJc2JUrA7J9YdiJ-tq752hESegyH4M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hbWF0/ZXVycGhvdG9ncmFw/aGVyLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvc2l0ZXMvNy8y/MDI1LzAyL1NhbXN1/bmdfR2FsYXh5X1My/NVVsdHJhX0FteURh/dmllc19Qcm9kdWN0/XzAxLmpwZz93PTEw/MjQ",
+      "title": "Samsung s25 ultra",
+      "description": "Նոր Հորիզոններ.",
+      "category": "laptops",
+      "price": 480
+    },
+    {
+      "id": 18,
+      "image": "https://imgs.search.brave.com/BqqyhuOdW5Y0p3buabXNKmZfKLzf1gERe0e--oYvyAU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zbWFz/aGluZy53cGVuZ2lu/ZXBvd2VyZWQuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDE2/LzA0LzM2MC1jYW1l/cmEtbWluaS1leWUt/NC1mcm9udC5qcGc",
+      "title": "MiniCamera 360",
+      "description": "360° տեսախցիկ՝ live streaming.",
+      "category": "gadgets",
+      "price": 89
+    },
+    {
+      "id": 19,
+      "image": "https://imgs.search.brave.com/Ua8cgKyhZxfxOBssr_eX_fKL-JpeZSTudWBGVQU59Aw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90dXJi/b2FudC5jb20vY2Ru/L3Nob3AvZmlsZXMv/WDdQcm9fMDFfMGMw/ZmI3ZTctMDczMy00/OWI0LWFiM2YtZDIw/NzA5ZTI3ZGZhLmpw/Zz9jcm9wPWNlbnRl/ciZoZWlnaHQ9MTAy/NCZ2PTE2OTY4NjU3/NjYmd2lkdGg9MTAy/NA",
+      "title": "Turbo X Pro",
+      "description": "Gaming phone՝ բարձր refresh rate.",
+      "category": "phones",
+      "price": 620
+    },
+    {
+      "id": 20,
+      "image": "https://imgs.search.brave.com/BjZ9eFFo3FD5T5UbWbZof49QcbZ5XB-X1GeMGMupvW8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bW9zLmNtcy5mdXR1/cmVjZG4ubmV0L2Fx/clB4Q0VoM1hiNTh0/TjVBMjlYV28uanBn",
+      "title": "Hybrid TabletBook",
+      "description": "2-in-1 նոթբուք-թաբլեթ.",
+      "category": "laptops",
+      "price": 699
+    }
+  ]
+}

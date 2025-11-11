@@ -1,0 +1,13 @@
+.backgrounderror{
+    background-image: url(..//..//assets/Image/error.jpg);
+   
+  
+    background-size: cover;
+  height: 80vh;
+padding: px 0px;
+}
+.error{
+
+padding: 50px 0px;
+
+}

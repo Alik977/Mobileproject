@@ -16,7 +16,7 @@ import { NavLink } from "react-router-dom";
 import { styled } from "@mui/material/styles";
 import Badge, { badgeClasses } from "@mui/material/Badge";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCartOutlined";
-import "./Header.css";
+
 
 const pages = [
   { title: "Home", path: "/" },
@@ -62,13 +62,13 @@ function Header({ cartLength }) {
               textDecoration: "none",
             }}
           >
-            My Mobile
+           Gadget Mall
           </Typography>
 
        
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
 
-            {/* MOBILE CART ICON */}
+         
             <IconButton
               component={NavLink}
               to="/carts"

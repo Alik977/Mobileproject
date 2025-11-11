@@ -1,0 +1,40 @@
+
+.boxmini {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 800px;
+  background-color: #ff6b6b;
+  border-radius: 25px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.h1title {
+  font-size: 28px;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.image img {
+  max-width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.description {
+  font-size: 18px;
+  color: #f0f0f0;
+  margin-bottom: 15px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffe600;
+}
