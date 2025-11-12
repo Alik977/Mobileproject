@@ -68,3 +68,46 @@
 .minus:hover{
     cursor: pointer;
 }
+.cartbox {
+  border-bottom: 1px solid #ccc;
+  padding: 12px;
+  transition: 0.3s ease;
+}
+
+.cartbox.bought {
+  background-color: #e6ffe6;
+  opacity: 0.9;
+}
+
+.buy-btn {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.buy-btn:hover {
+  background-color: #2ecc71;
+}
+
+.bought-label {
+  color: #27ae60;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.clear {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.clear:hover {
+  background-color: #ff3333;
+}
